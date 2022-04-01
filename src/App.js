@@ -49,7 +49,7 @@ function App() {
               </a>
             </div>
             <div className="px-xxl-0 col-12 col-lg-6 col-xxl-7">
-              <img className="w-full" src="i/block-1-img.svg" alt="" />
+            <img className="w-full" src={require('./graph.png')} />
             </div>
           </div>
         </div>
@@ -141,7 +141,7 @@ function App() {
         <div className="pt-6 pb-6 container">
           <div className="row justify-content-xxl-center align-items-center">
             <div className="mb-6 col-md-5 col-lg-6 col-xxl-5">
-              <img src="i/block-5-img-1.svg" alt="" className="w-full" />
+              <img src={require('./stand.png')} alt="" className="w-full" />
             </div>
             <div className="mb-6 col-md-7 col-lg-6 col-xxl-5">
               <div className="d-flex justify-content-center">
@@ -196,7 +196,7 @@ function App() {
               </div>
             </div>
             <div className="mb-6 mb-lg-0 col-md-5 col-lg-6 col-xxl-5 order-2 order-md-3">
-              <img src="i/block-5-img-2.svg" alt="" className="w-full" />
+              <img src={require('./machine.png')} alt="" className="w-full" />
             </div>
           </div>
         </div>
@@ -215,7 +215,7 @@ function App() {
               </a>
             </div>
             <div className="col-sm-1 col-md-2 col-lg-4 col-xxl-6 d-flex d-sm-block justify-content-center relative img-block">
-              <img src="i/bomb.svg" alt="" className="d-block" />
+              <img src={require('./dataup.gif')} className="d-block" />
             </div>
           </div>
         </div>
@@ -306,7 +306,7 @@ function App() {
             </div>
           </div>
           <div className="mt-2 pt-5 row justify-content-center justify-content-sm-between align-items-center border-top-light">
-            <div className="me-2 me-sm-0 px-0 px-sm-auto col-auto caption-2 medium grey-light-4">Copyright © 2020</div>
+            <div className="me-2 me-sm-0 px-0 px-sm-auto col-auto caption-2 medium grey-light-4">Copyright © 2022</div>
             <div className="px-0 px-sm-auto col-auto">
               <div className="d-flex justify-content-end align-items-center">
                 <a href="contacts.html" className="me-1 me-sm-2 btn rounded medium-r transparent-grey-light"></a>
