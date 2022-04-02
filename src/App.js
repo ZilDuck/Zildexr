@@ -16,6 +16,9 @@ function App() {
                 <a href="about.html" className="caption-3 mt-4 mt-sm-0 me-sm-4 pb-4 pb-sm-0">
                   Home
                 </a>
+                {/* <a href="sign-up.html" className="btn transparent-green small">
+                  Sign Up
+                </a> */}
                 <a href="sign-up.html" className="btn transparent-green small">
                   Sign Up
                 </a>
@@ -63,42 +66,42 @@ function App() {
 
                 <div className="mb-5 pe-sm-2 pe-lg-3 col-sm-6">
                   <div className="py-4 px-4 py-lg-5 px-lg-5 bg-white rounded overflow-hidden text-center">
-                    <img className="mt-1 mb-4" src="i/block-2-img-1.svg" alt="" height="130" width="130" />
+                    <img className="mt-1 mb-4" src={require('./i/block-2-img-1.png')} alt="" height="130" width="130" />
                     <p className="pt-1 pb-2 lead medium">GetContractDetails</p>
                     <p className="body-17 grey-dark-4">Fetch all of the mutable/immutable data in one call</p>
                   </div>
                 </div>
                 <div className="mb-5 ps-sm-2 ps-lg-3 col-sm-6">
                   <div className="py-4 px-4 py-lg-5 px-lg-5 bg-white rounded overflow-hidden text-center">
-                    <img className="mt-1 mb-4" src="i/block-2-img-2.svg" alt="" height="130" width="130" />
+                    <img className="mt-1 mb-4" src={require('./i/block-2-img-2.png')} alt="" height="130" width="130" />
                     <p className="pt-1 pb-2 lead medium">GetNFTForAddress</p>
                     <p className="body-17 grey-dark-4">Retrieve all of the NFT's that a user has associated with their address</p>
                   </div>
                 </div>
                 <div className="mb-5 pe-sm-2 pe-lg-3 col-sm-6">
                   <div className="py-4 px-4 py-lg-5 px-lg-5 bg-white rounded overflow-hidden text-center">
-                    <img className="mt-1 mb-4" src="i/block-2-img-1.svg" alt="" height="130" width="130" />
+                    <img className="mt-1 mb-4" src={require('./i/block-2-img-3.png')} alt="" height="130" width="130" />
                     <p className="pt-1 pb-2 lead medium">GetDeployedContractsForAddress</p>
                     <p className="body-17 grey-dark-4">Know all of the contracts your users have deployed to interact with them</p>
                   </div>
                 </div>
                 <div className="mb-5 ps-sm-2 ps-lg-3 col-sm-6">
                   <div className="py-4 px-4 py-lg-5 px-lg-5 bg-white rounded overflow-hidden text-center">
-                    <img className="mt-1 mb-4" src="i/block-2-img-2.svg" alt="" height="130" width="130" />
+                    <img className="mt-1 mb-4" src={require('./i/block-2-img-4.png')} alt="" height="130" width="130" />
                     <p className="pt-1 pb-2 lead medium">GetTokenID</p>
                     <p className="body-17 grey-dark-4">Fetch either a singular token, a range, or a selection with the associated metadata</p>
                   </div>
                 </div>
                 <div className="mb-5 mb-sm-0 pe-sm-2 pe-lg-3 col-sm-6">
                   <div className="py-4 px-4 py-lg-5 px-lg-5 bg-white rounded overflow-hidden text-center">
-                    <img className="mt-1 mb-4" src="i/block-2-img-3.svg" alt="" height="130" width="130" />
+                    <img className="mt-1 mb-4" src={require('./i/block-2-img-1.png')}  alt="" height="130" width="130" />
                     <p className="pt-1 pb-2 lead medium">GetActionsForTokenID</p>
                     <p className="body-17 grey-dark-4">Analyse all of the actions that a singular NFT token has taken</p>
                   </div>
                 </div>
                 <div className="ps-sm-2 ps-lg-3 col-sm-6">
                   <div className="py-4 px-4 py-lg-5 px-lg-5 bg-white rounded overflow-hidden text-center">
-                    <img className="mt-1 mb-4" src="i/block-2-img-4.svg" alt="" height="130" width="130" />
+                    <img className="mt-1 mb-4" src={require('./i/block-2-img-2.png')}  alt="" height="130" width="130" />
                     <p className="pt-1 pb-2 lead medium">GetStatisticsForMetadata</p>
                     <p className="body-17 grey-dark-4">Calculate all of the NFT attributes and their counts from metadata</p>
                   </div>
@@ -214,9 +217,6 @@ function App() {
                 Read The Docs!
               </a>
             </div>
-            <div className="col-sm-1 col-md-2 col-lg-4 col-xxl-6 d-flex d-sm-block justify-content-center relative img-block">
-              <img src={require('./dataup.gif')} className="d-block" />
-            </div>
           </div>
         </div>
       </div>
@@ -231,77 +231,44 @@ function App() {
             </div>
             <div className="col-12 col-md-10 col-lg-10 col-xxl-8">
               <div className="d-flex flex-wrap align-items-start">
+
                 <div className="mb-4 mb-lg-0 col-6 col-lg-3 col-xxl-3">
                   <a href="index.html" className="mb-4 d-block caption-1 medium text-white">
                     Home
                   </a>
                   <a href="careers.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Become Affiliate
+                    API Documentation
                   </a>
                   <a href="pricing.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Go Unlimited
-                  </a>
-                  <a href="help-center.html" className="d-block caption-2 medium grey-light-4">
-                    Services
+                    API Pricing
                   </a>
                 </div>
+
                 <div className="mb-4 mb-lg-0 col-6 col-lg-3 col-xxl-3">
                   <a href="apps.html" className="mb-4 d-block caption-1 medium text-white">
-                    Products
+                    Our Clients
                   </a>
                   <a href="api.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Design Systems
+                    zilkroad.io
                   </a>
                   <a href="resources-library.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Themes & Templates
+                    zilstream.com
                   </a>
                   <a href="features.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Mockups
-                  </a>
-                  <a href="api.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Presentations
-                  </a>
-                  <a href="resources-library.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Wireframes Kits
-                  </a>
-                  <a href="apps.html" className="d-block caption-2 medium grey-light-4">
-                    UI Kits
+                    heyalfie.io
                   </a>
                 </div>
+
                 <div className="mb-4 mb-lg-0 col-6 col-lg-3 col-xxl-3">
                   <a href="text.html" className="mb-4 d-block caption-1 medium text-white">
-                    Legals
-                  </a>
-                  <a href="404.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    License
-                  </a>
-                  <a href="text.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Refund Policy
-                  </a>
-                  <a href="about.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    About Us
+                    Contact
                   </a>
                   <a href="contacts.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Contacts
+                    Contact us
                   </a>
                 </div>
-                <div className="col-6 col-lg-3 col-xxl-3">
-                  <a href="blog.html" className="mb-4 d-block caption-1 medium text-white">
-                    Blog
-                  </a>
-                  <a href="blog.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Business Stories
-                  </a>
-                  <a href="blog.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Digital Store
-                  </a>
-                  <a href="blog.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Learning
-                  </a>
-                  <a href="contacts.html" className="mb-3 d-block caption-2 medium grey-light-4">
-                    Social Media
-                  </a>
-                </div>
+
+           
               </div>
             </div>
           </div>
