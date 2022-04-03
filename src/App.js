@@ -1,5 +1,12 @@
 import "./App.css"
 
+import AccountSettings from "./i/Account settings.png"
+import AnalyticalChart from "./i/Analytical chart.png"
+import Charts from "./i/Charts.png"
+import Chat from "./i/Chat.png"
+import CryptoChain from "./i/Crypto chain.png"
+import CryptoCharts from "./i/Crypto charts.png"
+
 function App() {
   return (
     <>
@@ -39,7 +46,7 @@ function App() {
             <div className="mb-6 mb-lg-0 col-12 col-lg-6 col-xxl-5">
               <h1 className="mb-4">Make your Zilliqa Dapp stand out!</h1>
               <p className="mb-4 pb-4 pe-xxl-6 body-21 grey-dark-4">
-                Enrich your application with a variety of request/response pairs to wow your users. 
+                Enrich your application with a variety of request/response pairs to wow your users.
               </p>
               <a href="resources-library.html" className="me-3 d-inline-block btn indigo medium">
                 Contact us
@@ -60,47 +67,56 @@ function App() {
           <div className="row align-items-stretch">
             <div className="col-lg-7 col-xl-6 order-1 order-lg-0">
               <div className="d-flex flex-wrap justify-content-center justify-content-sm-start align-items-stretch">
-
                 <div className="mb-5 pe-sm-2 pe-lg-3 col-sm-6">
                   <div className="py-4 px-4 py-lg-5 px-lg-5 bg-white rounded overflow-hidden text-center">
-                    <img className="mt-1 mb-4" src="i/block-2-img-1.svg" alt="" height="130" width="130" />
+                    <img className="mt-1 mb-4" src={AccountSettings} alt="" height="130" width="130" />
                     <p className="pt-1 pb-2 lead medium">GetContractDetails</p>
                     <p className="body-17 grey-dark-4">Fetch all of the mutable/immutable data in one call</p>
                   </div>
                 </div>
                 <div className="mb-5 ps-sm-2 ps-lg-3 col-sm-6">
                   <div className="py-4 px-4 py-lg-5 px-lg-5 bg-white rounded overflow-hidden text-center">
-                    <img className="mt-1 mb-4" src="i/block-2-img-2.svg" alt="" height="130" width="130" />
+                    <img className="mt-1 mb-4" src={AnalyticalChart} alt="" height="130" width="130" />
                     <p className="pt-1 pb-2 lead medium">GetNFTForAddress</p>
-                    <p className="body-17 grey-dark-4">Retrieve all of the NFT's that a user has associated with their address</p>
+                    <p className="body-17 grey-dark-4">
+                      Retrieve all of the NFT's that a user has associated with their address
+                    </p>
                   </div>
                 </div>
                 <div className="mb-5 pe-sm-2 pe-lg-3 col-sm-6">
                   <div className="py-4 px-4 py-lg-5 px-lg-5 bg-white rounded overflow-hidden text-center">
-                    <img className="mt-1 mb-4" src="i/block-2-img-1.svg" alt="" height="130" width="130" />
+                    <img className="mt-1 mb-4" src={Charts} alt="" height="130" width="130" />
                     <p className="pt-1 pb-2 lead medium">GetDeployedContractsForAddress</p>
-                    <p className="body-17 grey-dark-4">Know all of the contracts your users have deployed to interact with them</p>
+                    <p className="body-17 grey-dark-4">
+                      Know all of the contracts your users have deployed to interact with them
+                    </p>
                   </div>
                 </div>
                 <div className="mb-5 ps-sm-2 ps-lg-3 col-sm-6">
                   <div className="py-4 px-4 py-lg-5 px-lg-5 bg-white rounded overflow-hidden text-center">
-                    <img className="mt-1 mb-4" src="i/block-2-img-2.svg" alt="" height="130" width="130" />
+                    <img className="mt-1 mb-4" src={Charts} alt="" height="130" width="130" />
                     <p className="pt-1 pb-2 lead medium">GetTokenID</p>
-                    <p className="body-17 grey-dark-4">Fetch either a singular token, a range, or a selection with the associated metadata</p>
+                    <p className="body-17 grey-dark-4">
+                      Fetch either a singular token, a range, or a selection with the associated metadata
+                    </p>
                   </div>
                 </div>
                 <div className="mb-5 mb-sm-0 pe-sm-2 pe-lg-3 col-sm-6">
                   <div className="py-4 px-4 py-lg-5 px-lg-5 bg-white rounded overflow-hidden text-center">
-                    <img className="mt-1 mb-4" src="i/block-2-img-3.svg" alt="" height="130" width="130" />
+                    <img className="mt-1 mb-4" src={Charts} alt="" height="130" width="130" />
                     <p className="pt-1 pb-2 lead medium">GetActionsForTokenID</p>
-                    <p className="body-17 grey-dark-4">Analyse all of the actions that a singular NFT token has taken</p>
+                    <p className="body-17 grey-dark-4">
+                      Analyse all of the actions that a singular NFT token has taken
+                    </p>
                   </div>
                 </div>
                 <div className="ps-sm-2 ps-lg-3 col-sm-6">
                   <div className="py-4 px-4 py-lg-5 px-lg-5 bg-white rounded overflow-hidden text-center">
-                    <img className="mt-1 mb-4" src="i/block-2-img-4.svg" alt="" height="130" width="130" />
+                    <img className="mt-1 mb-4" src={Charts} alt="" height="130" width="130" />
                     <p className="pt-1 pb-2 lead medium">GetStatisticsForMetadata</p>
-                    <p className="body-17 grey-dark-4">Calculate all of the NFT attributes and their counts from metadata</p>
+                    <p className="body-17 grey-dark-4">
+                      Calculate all of the NFT attributes and their counts from metadata
+                    </p>
                   </div>
                 </div>
               </div>
@@ -110,8 +126,8 @@ function App() {
                 <div className="mb-5 mb-lg-0 col-xxl-9">
                   <h2 className="pb-3">Pick and choose what API calls you require</h2>
                   <p className="mb-4 pb-4 pe-xxl-5 body-21 grey-dark-4">
-                    With all this functionality at your fingertips, the only question is where will you start? 
-                    Check out our Pricing page for more details about plans.
+                    With all this functionality at your fingertips, the only question is where will you start? Check out
+                    our Pricing page for more details about plans.
                   </p>
                   <div className="d-flex justify-content-start align-items-center">
                     <a
@@ -136,7 +152,6 @@ function App() {
         </div>
       </div>
 
-
       <div className="pt-6 pb-6 block-5">
         <div className="pt-6 pb-6 container">
           <div className="row justify-content-xxl-center align-items-center">
@@ -148,15 +163,9 @@ function App() {
                 <div className="col-xxl-10">
                   <h3 className="mb-4">Zildexer is the first choice for</h3>
                   <ul className="mb-6">
-                    <li className="mb-3 d-flex justify-content-start align-items-center body-21">
-                      Marketplaces
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center body-21">
-                      Projects
-                    </li>
-                    <li className="d-flex justify-content-start align-items-center body-21">
-                      Aggregators / Wallets
-                    </li>
+                    <li className="mb-3 d-flex justify-content-start align-items-center body-21">Marketplaces</li>
+                    <li className="mb-3 d-flex justify-content-start align-items-center body-21">Projects</li>
+                    <li className="d-flex justify-content-start align-items-center body-21">Aggregators / Wallets</li>
                   </ul>
                   <div className="d-flex justify-content-start">
                     <a
@@ -174,15 +183,9 @@ function App() {
                 <div className="col-xxl-10">
                   <h3 className="mb-4">Check our partners out! </h3>
                   <ul className="mb-6">
-                    <li className="mb-3 d-flex justify-content-start align-items-center body-21">
-                      zilkroad.io
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center body-21">
-                      zilstream.com
-                    </li>
-                    <li className="d-flex justify-content-start align-items-center body-21">
-                      heyalfie.io
-                    </li>
+                    <li className="mb-3 d-flex justify-content-start align-items-center body-21">zilkroad.io</li>
+                    <li className="mb-3 d-flex justify-content-start align-items-center body-21">zilstream.com</li>
+                    <li className="d-flex justify-content-start align-items-center body-21">heyalfie.io</li>
                   </ul>
                   <div className="d-flex justify-content-start">
                     <a
