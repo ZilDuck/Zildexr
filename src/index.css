@@ -7067,3 +7067,8 @@ h5 {
 .expand-block:first-of-type {
   border-top: 1.5px solid rgba(0, 0, 0, 0.05);
 }
+
+.block-9 .pricing-options .pricing-block .inner {
+  border: 1.5px solid rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}

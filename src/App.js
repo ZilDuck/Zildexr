@@ -148,109 +148,117 @@ function App() {
         </div>
       </div>
 
-      <div className="pt-6 pb-6 block-3 container text-center">
-        <h2 class="pb-3">Pricing options</h2>
-        <p class="body-21 grey-dark-4 pb-4">Create the perfect look for your project</p>
-        <div className="pt-4 row justify-content-center justify-content-lg-between align-items-stretch pricing-options yearly">
-          <div className="mb-5 mb-lg-0 col-sm-10 col-lg-4 text-start pricing-block yearly">
-            <div className="d-flex flex-column justify-content-between inner h-full">
-              <div>
-                <div className="pt-5 px-5 pb-4 d-flex justify-content-between align-items-center border-bottom-dark">
-                  <h5>Start</h5>
-                  <h5>Free</h5>
+      <div className="pt-6 pb-6 block-9 container text-center">
+        <div className="pricing-options">
+          <h2 class="pb-3">Pricing options</h2>
+          <p class="body-21 grey-dark-4 pb-4">Create the perfect look for your project</p>
+          <div className="pt-4 row justify-content-center justify-content-lg-between align-items-stretch pricing-options yearly">
+            <div className="mb-5 mb-lg-0 col-sm-10 col-lg-4 text-start pricing-block yearly">
+              <div className="d-flex flex-column justify-content-between inner h-full">
+                <div>
+                  <div className="pt-5 px-5 pb-4 d-flex justify-content-between align-items-center border-bottom-dark">
+                    <h5>Start</h5>
+                    <h5>Free</h5>
+                  </div>
+                  <div className="px-5 py-5">
+                    <ul>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Editable boards
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Anonymous board viewers
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Premade templates
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Core integrations
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="px-5 py-5">
-                  <ul>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">Editable boards</li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Anonymous board viewers
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Premade templates
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Core integrations
-                    </li>
-                  </ul>
+                  <a href="resources-library.html" className="d-block w-full btn outline-grey medium text-center">
+                    Get Started
+                  </a>
                 </div>
-              </div>
-              <div className="px-5 py-5">
-                <a href="resources-library.html" className="d-block w-full btn outline-grey medium text-center">
-                  Get Started
-                </a>
               </div>
             </div>
-          </div>
-          <div className="mb-5 mb-lg-0 col-sm-10 col-lg-4 text-start pricing-block yearly">
-            <div className="d-flex flex-column justify-content-between bg-indigo text-white inner h-full">
-              <div>
-                <div className="pt-5 px-5 pb-4 d-flex justify-content-between align-items-center border-bottom-light">
-                  <h5>Business</h5>
-                  <h5>$10/m</h5>
+            <div className="mb-5 mb-lg-0 col-sm-10 col-lg-4 text-start pricing-block yearly">
+              <div className="d-flex flex-column justify-content-between bg-indigo text-white inner h-full">
+                <div>
+                  <div className="pt-5 px-5 pb-4 d-flex justify-content-between align-items-center border-bottom-light">
+                    <h5>Business</h5>
+                    <h5>$10/m</h5>
+                  </div>
+                  <div className="px-5 py-5">
+                    <ul>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Editable boards
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Anonymous board viewers
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Premade templates
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Core integrations
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Basic attention management
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Asana integration
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="px-5 py-5">
-                  <ul>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">Editable boards</li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Anonymous board viewers
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Premade templates
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Core integrations
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Basic attention management
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Asana integration
-                    </li>
-                  </ul>
+                  <a href="resources-library.html" className="d-block w-full btn outline-white medium text-center">
+                    Get Started
+                  </a>
                 </div>
-              </div>
-              <div className="px-5 py-5">
-                <a href="resources-library.html" className="d-block w-full btn outline-white medium text-center">
-                  Get Started
-                </a>
               </div>
             </div>
-          </div>
-          <div className="col-sm-10 col-lg-4 text-start pricing-block yearly">
-            <div className="d-flex flex-column justify-content-between bg-black text-white inner h-full">
-              <div>
-                <div className="pt-5 px-5 pb-4 d-flex justify-content-between align-items-center border-bottom-light">
-                  <h5>Enterprise</h5>
-                  <h5> $30/m</h5>
+            <div className="col-sm-10 col-lg-4 text-start pricing-block yearly">
+              <div className="d-flex flex-column justify-content-between bg-black text-white inner h-full">
+                <div>
+                  <div className="pt-5 px-5 pb-4 d-flex justify-content-between align-items-center border-bottom-light">
+                    <h5>Enterprise</h5>
+                    <h5> $30/m</h5>
+                  </div>
+                  <div className="px-5 py-5">
+                    <ul>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Editable boards
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Anonymous board viewers
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Premade templates
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Core integrations
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Basic attention management
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        Asana integration
+                      </li>
+                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        High-resolution exports
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="px-5 py-5">
-                  <ul>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">Editable boards</li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Anonymous board viewers
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Premade templates
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Core integrations
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Basic attention management
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      Asana integration
-                    </li>
-                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                      High-resolution exports
-                    </li>
-                  </ul>
+                  <a href="resources-library.html" className="d-block w-full btn white medium text-center">
+                    Get Started
+                  </a>
                 </div>
-              </div>
-              <div className="px-5 py-5">
-                <a href="resources-library.html" className="d-block w-full btn white medium text-center">
-                  Get Started
-                </a>
               </div>
             </div>
           </div>
