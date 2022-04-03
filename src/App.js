@@ -150,29 +150,23 @@ function App() {
 
       <div className="pt-6 pb-6 block-9 container text-center">
         <div className="pricing-options">
-          <h2 class="pb-3">Pricing options</h2>
-          <p class="body-21 grey-dark-4 pb-4">Create the perfect look for your project</p>
+          <h2 class="pb-3">Pricing</h2>
+          <p class="body-21 grey-dark-4 pb-4"></p>
           <div className="pt-4 row justify-content-center justify-content-lg-between align-items-stretch pricing-options yearly">
             <div className="mb-5 mb-lg-0 col-sm-10 col-lg-4 text-start pricing-block yearly">
               <div className="d-flex flex-column justify-content-between inner h-full">
                 <div>
                   <div className="pt-5 px-5 pb-4 d-flex justify-content-between align-items-center border-bottom-dark">
-                    <h5>Start</h5>
-                    <h5>Free</h5>
+                    <h5>Testing</h5>
+                    <h5>$20 /per month</h5>
                   </div>
                   <div className="px-5 py-5">
                     <ul>
                       <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Editable boards
+                        5,000 requests
                       </li>
                       <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Anonymous board viewers
-                      </li>
-                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Premade templates
-                      </li>
-                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Core integrations
+                        Discord Community Support 
                       </li>
                     </ul>
                   </div>
@@ -188,28 +182,16 @@ function App() {
               <div className="d-flex flex-column justify-content-between bg-indigo text-white inner h-full">
                 <div>
                   <div className="pt-5 px-5 pb-4 d-flex justify-content-between align-items-center border-bottom-light">
-                    <h5>Business</h5>
-                    <h5>$10/m</h5>
+                  <h5>Building</h5>
+                    <h5>$60 /per month</h5>
                   </div>
                   <div className="px-5 py-5">
                     <ul>
                       <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Editable boards
+                        30,000 requests
                       </li>
                       <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Anonymous board viewers
-                      </li>
-                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Premade templates
-                      </li>
-                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Core integrations
-                      </li>
-                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Basic attention management
-                      </li>
-                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Asana integration
+                        Discord Community Support 
                       </li>
                     </ul>
                   </div>
@@ -225,31 +207,19 @@ function App() {
               <div className="d-flex flex-column justify-content-between bg-black text-white inner h-full">
                 <div>
                   <div className="pt-5 px-5 pb-4 d-flex justify-content-between align-items-center border-bottom-light">
-                    <h5>Enterprise</h5>
-                    <h5> $30/m</h5>
+                    <h5>Scaling</h5>
+                    <h5> $200/m</h5>
                   </div>
                   <div className="px-5 py-5">
                     <ul>
-                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Editable boards
+                    <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
+                        150,000 requests
                       </li>
                       <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Anonymous board viewers
+                        Discord Community Support 
                       </li>
                       <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Premade templates
-                      </li>
-                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Core integrations
-                      </li>
-                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Basic attention management
-                      </li>
-                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        Asana integration
-                      </li>
-                      <li className="mb-3 d-flex justify-content-start align-items-center caption-2">
-                        High-resolution exports
+                        24h Support
                       </li>
                     </ul>
                   </div>
